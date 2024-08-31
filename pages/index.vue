@@ -1,10 +1,11 @@
 <template>
     <div>
         <h1>Hello, I'm index page!</h1>
+
+        <nuxt-link to="/login">Login</nuxt-link>
     </div>
 </template>
 
 <script>
-    import queryString from 'query-string';
-    console.log('index')
+    // magic
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Hello, I'm Bob!</h1>
-        <Login/>
+        <h1>Login</h1>
+        <OneTap/>
     </div>
 </template>
 
