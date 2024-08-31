@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@vkid/sdk':
+    specifier: ^2.3.0
+    version: 2.3.0
   nuxt:
     specifier: ^3.13.0
     version: 3.13.0(vite@5.4.2)
@@ -1878,6 +1881,12 @@ packages:
       vue: 3.4.38
     dev: false
 
+  /@vkid/sdk@2.3.0:
+    resolution: {integrity: sha512-NG7DK57APSxg0PU77MeBduXo/meLJ6fhTAvPUC+EgvYMMydUK9sbAKek4Sbom8LQ1+bJerGFZ0kAFGn2Q/ihfQ==}
+    dependencies:
+      crypto-js: 4.2.0
+    dev: false
+
   /@vue-macros/common@1.12.2(vue@3.4.38):
     resolution: {integrity: sha512-+NGfhrPvPNOb3Wg9PNPEXPe0HTXmVe6XJawL1gi3cIjOSGIhpOdvmMT2cRuWb265IpA/PeL5Sqo0+DQnEDxLvw==}
     engines: {node: '>=16.14.0'}
@@ -2579,6 +2588,10 @@ packages:
     peerDependenciesMeta:
       uWebSockets.js:
         optional: true
+    dev: false
+
+  /crypto-js@4.2.0:
+    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
     dev: false
 
   /css-declaration-sorter@7.2.0(postcss@8.4.41):
