@@ -12,6 +12,7 @@
   "dependencies": {
     "@vkid/sdk": "^2.3.0",
     "nuxt": "^3.13.0",
+    "query-string": "^9.1.0",
     "vk-io": "^4.9.1",
     "vue": "latest"
   }
