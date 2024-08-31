@@ -2,8 +2,14 @@
 import { ref, onMounted } from 'vue';
 import * as VKID from '@vkid/sdk';
 
-const app = '52236268'
+// const app = '52236268'
+
+
+const app = '51893457'
 const redirectUrl = 'https://vk-thing.vercel.app/'
+
+
+
 
 VKID.Config.init({
     app, // Идентификатор приложения.
