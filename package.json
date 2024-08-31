@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@vkid/sdk": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "nuxt": "^3.13.0",
     "query-string": "^9.1.0",
     "vk-io": "^4.9.1",
